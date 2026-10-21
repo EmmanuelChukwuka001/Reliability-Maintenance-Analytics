@@ -25,7 +25,7 @@ The analysis uses a dataset of **300 work orders** and an asset master covering 
 | Mean Time Between Failures (MTBF) | 677.44 hours |
 | Availability | 99.2% |
 
-Values are shown as reported by the workbook dashboard; totals and rates depend on the workbook's calculation definitions and reporting assumptions. See the [KPI definitions and validation guide](docs/KPI-Definitions.md).
+Values are shown as reported by the dashboard. The model estimates operating hours as 8,760 hours per distinct asset minus recorded downtime; MTBF is operating hours divided by recorded failures, MTTR is repair hours divided by recorded failures, and availability is operating hours divided by 8,760 hours per distinct asset. These assumptions affect interpretation, especially if the reporting period is shorter than a full year. See the [KPI definitions and validation guide](docs/KPI-Definitions.md) for the implemented DAX logic and validation notes.
 
 ## Questions Explored
 
