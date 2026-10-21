@@ -12,7 +12,7 @@ The analysis uses a dataset of **300 work orders** and an asset master covering 
 
 ## Dashboard Preview
 
-![Reliability and Maintenance Performance Dashboard](dashboard-screenshot.png)
+![Reliability and Maintenance Performance Dashboard](Screenshot%202026-10-07%20112629.png)
 
 ## Dashboard KPIs
 
@@ -81,7 +81,8 @@ The workbook contains these worksheets:
 
 ## Project Files
 
-The Excel workbook and dashboard screenshot are intended to accompany this README in the repository.
+- [Download the Excel workbook](Reliability_Maintenance_Project_2.xlsx)
+- [View the dashboard screenshot](Screenshot%202026-10-07%20112629.png)
 
 ---
 
