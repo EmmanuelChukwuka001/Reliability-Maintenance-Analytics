@@ -25,7 +25,7 @@ The analysis uses a dataset of **300 work orders** and an asset master covering 
 | Mean Time Between Failures (MTBF) | 677.44 hours |
 | Availability | 99.2% |
 
-Values are shown as reported by the workbook dashboard; totals and rates depend on the workbook's calculation definitions and reporting assumptions.
+Values are shown as reported by the workbook dashboard; totals and rates depend on the workbook's calculation definitions and reporting assumptions. See the [KPI definitions and validation guide](docs/KPI-Definitions.md).
 
 ## Questions Explored
 
@@ -51,6 +51,22 @@ These are descriptive observations from the displayed analysis, not proof of roo
 - **PivotTables / PivotCharts** — summary analysis across assets, maintenance types, and failure modes
 - **Maintenance analytics** — downtime, repair duration, MTBF, MTTR, availability, and cost metrics
 - **Data visualization** — KPI cards, comparative charts, and interactive slicers
+
+## Repository Structure
+
+```text
+Reliability-Maintenance-Analytics/
+├── README.md
+├── Reliability_Maintenance_Project_2.xlsx
+├── Screenshot 2026-10-07 112629.png
+└── docs/
+    └── KPI-Definitions.md
+```
+
+- **README.md** — project overview, dashboard preview, reported findings, methodology, and limitations
+- **Reliability_Maintenance_Project_2.xlsx** — source workbook, including the data, supporting analysis, and dashboard
+- **Screenshot 2026-10-07 112629.png** — static dashboard preview
+- **docs/KPI-Definitions.md** — definitions, interpretation notes, and validation checklist for maintenance KPIs
 
 ## Workbook Structure
 
@@ -81,8 +97,9 @@ The workbook contains these worksheets:
 
 ## Project Files
 
-- [Download the Excel workbook](Reliability_Maintenance_Project_2.xlsx)
+- [Open the Excel workbook](Reliability_Maintenance_Project_2.xlsx)
 - [View the dashboard screenshot](Screenshot%202026-10-07%20112629.png)
+- [Read KPI definitions and validation guidance](docs/KPI-Definitions.md)
 
 ---
 
